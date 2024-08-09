@@ -29,6 +29,11 @@ color: #fff;
   position:relative;
 }
 
+.card-list{
+  display: flex;
+  flex-direction: rowr;
+}
+
 .card-image{
   width: 300px;
   height: 250px;
