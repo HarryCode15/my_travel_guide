@@ -1,12 +1,13 @@
-body{
+/* body{
 
-}
+} */
 
 .navbar{
   background-color: #F55A5A;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: monospace;
 }
 
 .navbar-logo{
@@ -20,41 +21,77 @@ color: #fff;
 }
 
 .card{
-  width: 100%;
+  width: 50%;
   display: flex;
   flex-direction: row;
   flex: 0 0 auto;
-  margin: 10px 10px;
+  margin: 20px 20px;
   position:relative;
 }
 
 .card-image{
-  width: 200px;
-  height: 300px;
+  width: 300px;
+  height: 250px;
   border-radius: 8px;
 }
 .card-internal{
   display: flex;
   flex-direction: column;
-  margin: 0px 20px;
+  margin: -7px 20px;
+}
+
+.card-internal-date{
+  font-family: monospace;
+  font-size: larger;
+  font-weight: 600;
+}
+
+.card-internal p{
+  position: relative;
+  text-align: left;
+  line-height: 1.6; 
 }
 
 .card-location{
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+  justify-items: auto;
   margin-top: 20px;
   font-family: monospace sans-serif;
   font-size: 15px;
 }
 
 .card-location img {
-  height: 15px;
+  height: 16px;
   width: 13px;
+  margin-right: 4px;
   background: transparent;
   border: none;
 }
 
-.card-title{
+.card-location span{
+  font-size: 16px;
+  font-weight: 300;
+  margin-right: 15px;
+  letter-spacing: 5px;
+}
 
+.card-location a{
+  color: #918E9B;
+  font-family: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.card-title{
+  font-weight: bold;
+}
+
+hr{
+  width: 100%;
+  border: none;
+  height: 2px;
+  background-color: #F5F5F5;
+  border-radius: 5px;
 }

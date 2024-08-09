@@ -1,5 +1,6 @@
 export default function Cards() {
   return (
+    <>
     <div className="card">
       <img src="/images/japan.jpg" alt="Japan" className="card-image" />
       <div className="card-internal">
@@ -13,7 +14,7 @@ export default function Cards() {
 
         <h1 className="card-title">Mount Fuji</h1>
 
-        <span>12 Jan, 2021 - 24 Jan, 2021</span>
+        <span className="card-internal-date">12 Jan, 2021 - 24 Jan, 2021</span>
 
         <p>
           Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters
@@ -22,5 +23,7 @@ export default function Cards() {
         </p>
       </div>
     </div>
+    <hr/>
+    </>
   );
 }
