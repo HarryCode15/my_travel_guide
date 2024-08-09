@@ -31,7 +31,7 @@ color: #fff;
 
 .card-list{
   display: flex;
-  flex-direction: rowr;
+  flex-direction: row;
 }
 
 .card-image{

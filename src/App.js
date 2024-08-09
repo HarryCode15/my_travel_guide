@@ -8,7 +8,7 @@ function App() {
   const cards = data.map(destination => {
     return <Cards
               id={destination.id}
-              {...destination} className="card-list"/>
+              {...destination} />
   })
   return (
     <div>
